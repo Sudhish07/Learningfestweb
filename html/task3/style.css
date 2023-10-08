@@ -1,0 +1,12 @@
+.but {
+    margin: 20px auto 0;
+    display: block;
+}
+
+.yt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
