@@ -1,0 +1,7 @@
+body {
+    background-image: url(Astro.jpg);    
+}
+
+.back {
+    color: hsl(75, 20%, 96%);
+}

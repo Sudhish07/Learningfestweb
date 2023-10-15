@@ -1,0 +1,19 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insfour {
+    padding-left: 43.5%;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+}
+

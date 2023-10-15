@@ -1,0 +1,14 @@
+.lorem {
+    text-align: left;
+    border: 20px solid;
+    background-color: #2e85d68e; /* Grey background color for the box */
+    padding:3.4%;
+    width: 438px; /* Adjust the width as needed */
+    height: 260px;
+    margin: 0 auto; /* Center the box horizontally */
+    box-sizing: border-box;
+}
+
+.lor {
+     padding: 50px;
+}

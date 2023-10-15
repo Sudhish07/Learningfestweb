@@ -1,0 +1,19 @@
+.out {
+    width: 200px;
+    height: 200px; 
+    background-color: hsl(27, 97%, 47%); 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);;
+}
+
+.ins {
+    width: 70px; 
+    height: 70px; 
+    background-color: #3d414d; 
+    position: absolute;
+    top: 50%;           
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
