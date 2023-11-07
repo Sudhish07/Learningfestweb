@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center-box {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.center-box h2 {
+    margin: 0;
+    text-align: left; /* Align the heading to the left */
+}
+
+.input-group {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.center-box .error {
+    color: red;
+    font-size: 14px;
+}

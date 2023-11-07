@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2</title>
+</head>
+<body>
+  <h1>Sum Calculator</h1>
+  <p>Enter two numbers to calculate their sum:</p>
+  
+  <input type="number" id="num1" placeholder="Enter the first number">
+  <input type="number" id="num2" placeholder="Enter the second number">
+  <button id="calculateButton">Calculate Sum</button>
+  
+  <p id="result">Sum will be displayed here</p>
+
+  <script>
+    function calculateSum() {
+      const num1 = parseFloat(document.getElementById('num1').value);
+      const num2 = parseFloat(document.getElementById('num2').value);
+      const resultElement = document.getElementById('result');
+      
+      if (!isNaN(num1) && !isNaN(num2)) {
+        const sum = num1 + num2;
+        resultElement.textContent = `The sum is: ${sum}`;
+      } else {
+        resultElement.textContent = 'Please enter valid numbers.';
+      }
+    }
+
+    const calculateButton = document.getElementById('calculateButton');
+    calculateButton.addEventListener('click', calculateSum);
+  </script>
+</body>
+</html>
